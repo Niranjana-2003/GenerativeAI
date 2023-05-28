@@ -3,8 +3,7 @@ import streamlit as st
 import os
 import PyPDF2
 
-
-openai.api_key = "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"
+openai.api_key = st.secrets["pass"]
 
 
 def main():
